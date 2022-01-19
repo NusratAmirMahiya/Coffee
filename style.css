@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+    background-color: rgb(3, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.header a img {
+    width: 70px;
+    height: 60px;
+}
+.header .navber a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 4px;
+    transition: 0.3;
+}
+
+.header .icons .icon-button{
+    color: white;
+    margin: 0px 10px;
+}
+.banner{
+    background-image: url("./images/home-img.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+}
+.banner p{
+    color: white;
+}
+.banner button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    outline: 0px;
+    background-color:yellow;
+    border: 0px;
+    cursor: pointer;
+    
+}
+.banner button:hover{
+    letter-spacing:2px;
+    
+}
